@@ -1,0 +1,142 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+body{
+
+}
+.header{
+	height:400px;
+
+	background-image: url(images/a7.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.header h1{
+	padding-top: 120px;
+	text-align: center;
+	font-family: 'bangers';
+	letter-spacing: 5px;
+	color:white;
+	font-size: 70px;
+}
+.container{
+	
+	height: 500px;
+
+}
+.container h1{
+	text-align: center;
+	padding-top: 50px ;
+	font-size: 40px;
+	font-family:"New Times Roman";
+	letter-spacing: 3px;
+}
+.para{
+	padding-left: 100px;
+	font-family: 'amaranth';
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.footer2{
+	clear: left;
+	height: 200px;
+	background-color:#363b3e;
+}
+
+.icons ul{
+	  font-family: "voltaire", sans-serif;
+	  margin-left: 40%;}
+.icons ul li{
+	display: inline;
+}
+.icons {
+    font-size: 25px;
+}
+
+.bhasky ul{
+	margin-left: 33%;
+	margin-top: 40px;
+	margin-bottom: 25px;
+
+}
+.bhasky ul li{
+	display: inline;
+padding:25px 10px;
+}
+.bhasky ul li a {
+	text-decoration: none;
+color:#fff;	
+
+}
+ .fa:hover{
+ 	opacity: 0.8;
+ }
+.fa{
+	margin-top:30px;
+}
+.fa-facebook{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-twitter{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-pinterest{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-instagram{
+
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+
+}
+.fa-linkedin{
+		
+		width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.copyright p{
+	clear: left;
+	padding-bottom:2px;
+	font-size:15px;
+	text-align:center;
+	color:white;
+	font-family: 'Calligraffitti';
+	letter-spacing: 2px;
+
+}

@@ -1,0 +1,173 @@
+*{
+	padding:0;
+	margin:0;
+box-sizing:border-box;
+}
+body{
+	background-color: #f7f7f7;
+	
+}
+
+.header{
+	height: 500px;
+background-image: url(images/k2.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+text-align: center;
+padding-top: 200px;
+color: white;}
+.header h1{
+	font-size: 50px;
+
+	font-family: proxima-nova, sans-serif;
+}
+.header ul li
+{ display: inline-block;
+	padding: 0px 25px;
+}
+.container1{
+	height: 750px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	width:70%;
+	float:left;
+}
+.container{
+	margin-left: 100px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=submit] {
+    
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.heck{
+
+	background-color: #f7f7f7;
+	padding-left: 30%;
+	text-align: center;
+	
+}
+.footer2{
+	clear: left;
+	height: 200px;
+	background-color:#363b3e;
+}
+
+.icons ul{
+	  font-family: "voltaire", sans-serif;
+	  margin-left: 40%;}
+.icons ul li{
+	display: inline;
+}
+.icons {
+    font-size: 25px;
+}
+
+.bhasky ul{
+	margin-left: 33%;
+	margin-top: 40px;
+	margin-bottom: 25px;
+
+}
+.bhasky ul li{
+	display: inline;
+padding:25px 10px;
+}
+.bhasky ul li a {
+	text-decoration: none;
+color:#fff;	
+
+}
+ .fa:hover{
+ 	opacity: 0.8;
+ }
+.fa{
+	margin-top:30px;
+}
+.fa-facebook{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-twitter{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-pinterest{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-instagram{
+
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+
+}
+.fa-linkedin{
+		
+		width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.copyright p{
+	clear: left;
+	padding-bottom:2px;
+	font-size:15px;
+	text-align:center;
+	color:white;
+	font-family: 'Calligraffitti';
+	letter-spacing: 2px;
+
+}

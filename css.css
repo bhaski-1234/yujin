@@ -1,0 +1,309 @@
+*{
+ padding: 0;
+ margin:0;
+ box-sizing:border-box;
+}
+body{
+	background-color:white;
+}
+
+
+.header{
+height: 700px;
+}
+.yo{
+	background-image: url("images/ab3.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.nav{
+background:transparent;
+
+
+width: 100%;
+position: fixed;
+height:50px;
+}
+.nav.scrolled{
+	background-color:#221b1b;
+	
+	transition:background-color 2500ms linear;
+
+}
+
+.nav ul li{
+	text-decoration: none;
+	display:inline-block;
+	padding: 14px 40px;
+    text-align: center;
+    font-family: 'Amaranth';
+}
+.nav ul li:hover{
+ 
+    border-bottom: 4px solid #fff;
+	
+}
+.links li a{
+	text-decoration: none;
+	color:white;
+	font-weight:normal;
+	
+
+}
+.links{
+		width: 60%;
+	margin:auto;
+}
+h1{
+	font-size: 100px;
+	text-align: center;
+	font-family:'bangers';
+	color:white;
+	padding-top: 200px;
+	letter-spacing: 7px;
+}
+p{
+	text-align: center;
+	font-size: 40px;
+	font-family:'berkshire swash';
+	color: white;
+}
+.start {
+	max-width:200px;
+	margin:auto;
+	text-align:center;
+	height:40px;
+	border-radius:5px;
+	background-color: dodgerblue;
+	margin-top: 60px;
+	font-size: 30px;
+	color:white;
+	font-family:'berkshire swash';
+}
+.chair{
+	border: 3px solid black;
+	width:60%;
+	margin:auto;
+	
+
+}
+.chair img{
+	margin-left: 230px;
+}
+ .lund{
+ 	background-color:#f7f7f7;
+
+ }
+ .container1{
+	width: 65%;
+	margin:auto;
+	color: black;
+	height:580px;	
+} 
+
+.container1 h2{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align:center;
+	 padding:55px;
+	  font-size:40px;
+	  font-family: Times;   
+}
+.container1 p{
+	font-family:'Abel'; 
+	color:black;
+	
+	 font-size:20px;
+	 letter-spacing: 2px;
+	  text-align:justify;
+	  padding: 0 10px;
+	 
+	  }
+
+.container2{
+	background-color:#56d090;
+	background-repeat: no-repeat;
+	height:650px;
+	}
+	.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .head {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+.container3{
+background-color: #363b3e;
+}	
+.footer1{
+	height: 215px;
+	max-width: 100%;
+}
+
+.footer1 h1{
+	text-align:center;
+	padding-top:30px;
+	color:white;
+	font-family:"bangers";
+	font-size:80px;
+	font-weight:normal;
+
+
+}
+.footer1 p{
+	max-width:200px;
+	margin:auto;
+	text-align:center;
+	height:40px;
+	border-radius:5px;
+	background-color: dodgerblue;
+	margin-top: 30px;
+	font-size: 30px;
+
+}
+
+.footer2{
+	height: 170px;
+
+}
+
+.icons ul{
+	  font-family: "voltaire", sans-serif;
+	  margin-left: 40%;
+	  
+	
+}
+
+.icons ul li{
+	display: inline;
+}
+.icons {
+    font-size: 25px;
+}
+
+.bhasky ul{
+	margin-left: 33%;
+	margin-top: 40px;
+	margin-bottom: 25px;
+
+}
+.bhasky ul li{
+	display: inline;
+padding:25px 10px;
+}
+.bhasky ul li a {
+	text-decoration: none;
+color:#fff;	
+
+}
+ .fa:hover{
+ 	opacity: 0.8;
+ }
+
+.fa-facebook{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-twitter{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-pinterest{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-instagram{
+
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+
+}
+.fa-linkedin{
+		
+		width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.copyright p{
+	clear: left;
+	padding-bottom:2px;
+	font-size:15px;
+	text-align:center;
+	color:white;
+	font-family: 'Calligraffitti';
+	letter-spacing: 2px;
+
+}

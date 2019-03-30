@@ -1,0 +1,202 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+
+.header{
+text-align: center;
+height: 300px;
+
+}
+.header h1{
+	font-family: georgia,times,serif;
+	font-size:40px;
+	font-style: italic;
+	padding-bottom: 36px;
+	font-weight: normal;
+	padding-top: 75px;
+	opacity: 0.8;
+
+}
+.love{
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'open Sans','arial';
+	width: 72%;
+	margin:auto;
+	    color: #464444;
+	font-style: italic;
+}
+.you h2{
+text-align: center;
+    font-family: "Open Sans","Arial",sans-serif;
+color: #464444;
+letter-spacing: 3px;
+	font-size:30px;
+margin-top: 50px;
+
+
+}
+.too{
+
+height: 2px;
+width: 40px;
+margin-left:655px;
+background-color: #EE2E24;
+display: inline-block;
+margin-top:25px;
+}
+.yaar{
+	background-color: #ffffff;
+	height:1300px;
+
+
+}
+.yaar1{
+	width:50%;
+		
+	float: left;
+
+}
+.yaar1 img{
+	width:300px;
+	height: 400px;
+	margin-left: 250px;
+	padding-top: 50px;
+}
+img:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.yaar2{
+	width:50%;
+
+	float:left;
+
+}
+.yaar2 img{
+	width:300px;
+	height:400px;
+	margin-left: 120px;
+	padding-top: 50px;
+}
+.founder1{
+	margin-top: 15px;
+	margin-left: 250px;
+	font-size: 17px;
+	font-family: "Open Sans","Arial",sans-serif;
+    color: black;
+    font-weight: bold;
+    line-height: 35px;
+
+   }
+.founder2{
+	margin-top: 15px;
+	margin-left: 120px;
+	font-size: 17px;
+	font-family: "Open Sans","Arial",sans-serif;
+    color: black;
+    font-weight: bold;
+    line-height: 35px
+
+}
+.footer2{
+	clear: left;
+	height: 200px;
+	background-color:#363b3e;
+}
+
+.icons ul{
+	  font-family: "voltaire", sans-serif;
+	  margin-left: 40%;}
+.icons ul li{
+	display: inline;
+}
+.icons {
+    font-size: 25px;
+}
+
+.bhasky ul{
+	margin-left: 33%;
+	margin-top: 40px;
+	margin-bottom: 25px;
+
+}
+.bhasky ul li{
+	display: inline;
+padding:25px 10px;
+}
+.bhasky ul li a {
+	text-decoration: none;
+color:#fff;	
+
+}
+ .fa:hover{
+ 	opacity: 0.8;
+ }
+.fa{
+	margin-top:30px;
+}
+.fa-facebook{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-twitter{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-pinterest{
+	
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.fa-instagram{
+
+	width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+
+}
+.fa-linkedin{
+		
+		width: 50px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 5px;
+	border-radius: 50%;
+}
+.copyright p{
+	clear: left;
+	padding-bottom:2px;
+	font-size:15px;
+	text-align:center;
+	color:white;
+	font-family: 'Calligraffitti';
+	letter-spacing: 2px;
+
+}
+
